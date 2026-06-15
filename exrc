@@ -1,1 +1,0 @@
-../dotfilez/.config/vim/exrc
