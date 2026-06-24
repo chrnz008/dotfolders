@@ -1,4 +1,6 @@
-set go=""
-set go+=C
+vim9script
+
+set guioptions=
+set guioptions+=C
 set linespace=0
 hi Cursor guifg=fg
