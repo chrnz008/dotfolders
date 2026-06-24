@@ -1,0 +1,4 @@
+set go=""
+set go+=C
+set linespace=0
+hi Cursor guifg=fg
