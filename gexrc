@@ -1,6 +1,13 @@
 vim9script
 
-set guioptions=
-set guioptions+=C
-set linespace=0
+set guioptions=C
+
+if has("win32")
+	if has("directx")
+		# set renderoptions=type:directx
+		# some colors doesnt look good with this
+	endif
+	set linespace=0
+endif
+
 hi Cursor guifg=fg
